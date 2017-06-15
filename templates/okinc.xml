@@ -1,0 +1,9 @@
+<templateSet group="okinc">
+  <template name="test" value="testMethod($a$, $b$);" description="Test Method" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="lineNumber()" defaultValue="2" alwaysStopAt="false" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
