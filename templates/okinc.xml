@@ -12,4 +12,11 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="ontouch" value="$VIEW$.setOnTouchListener(new OnTouchListener() {&#10;    @Override&#10;    public boolean onTouch(View v, MotionEvent event) {&#10;        $cursor$&#10;        return false;&#10;    }&#10;});" description="set OnTouchListener for view" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
