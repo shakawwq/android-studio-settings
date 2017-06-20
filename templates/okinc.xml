@@ -19,4 +19,11 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="gbc" value="($cast$) getViewById(R.id.$resId$);" description="getViewById with cast in OStateView" toReformat="false" toShortenFQNames="true">
+    <variable name="cast" expression="expectedType()" defaultValue="" alwaysStopAt="true" />
+    <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
