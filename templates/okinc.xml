@@ -31,4 +31,10 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="handler" value="private static class MyHandler extends Handler {&#10;    WeakReference&lt;Activity&gt; mActivityReference;&#10;&#10;    MyHandler(Activity activity) {&#10;        mActivityReference= new WeakReference&lt;&gt;(activity);&#10;    }&#10;&#10;    @Override&#10;    public void handleMessage(Message msg) {&#10;        final Activity activity = mActivityReference.get();&#10;        if (activity != null) {&#10;            $cursor$&#10;        }&#10;    }&#10;}" description="Define non memory leak Handler class" toReformat="false" toShortenFQNames="true">
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
