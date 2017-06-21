@@ -5,33 +5,33 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="onclick" value="$VIEW$.setOnClickListener(new OnClickListener() {&#10;    @Override&#10;    public void onClick(View v) {&#10;        $cursor$&#10;    }&#10;});" description="Set OnClickListener for view" toReformat="false" toShortenFQNames="true">
+  <template name="onclick" value="$VIEW$.setOnClickListener(new OnClickListener() {&#10;    @Override&#10;    public void onClick(View v) {&#10;        $cursor$&#10;    }&#10;});" description="Set OnClickListener for view" toReformat="true" toShortenFQNames="true">
     <variable name="VIEW" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ontouch" value="$VIEW$.setOnTouchListener(new OnTouchListener() {&#10;    @Override&#10;    public boolean onTouch(View v, MotionEvent event) {&#10;        $cursor$&#10;        return false;&#10;    }&#10;});" description="set OnTouchListener for view" toReformat="false" toShortenFQNames="true">
+  <template name="ontouch" value="$VIEW$.setOnTouchListener(new OnTouchListener() {&#10;    @Override&#10;    public boolean onTouch(View v, MotionEvent event) {&#10;        $cursor$&#10;        return false;&#10;    }&#10;});" description="set OnTouchListener for view" toReformat="true" toShortenFQNames="true">
     <variable name="VIEW" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="gbc" value="($cast$) getViewById(R.id.$resId$);" description="getViewById with cast in OStateView" toReformat="false" toShortenFQNames="true">
+  <template name="gbc" value="($cast$) getViewById(R.id.$resId$);" description="getViewById with cast in OStateView" toReformat="true" toShortenFQNames="true">
     <variable name="cast" expression="expectedType()" defaultValue="" alwaysStopAt="true" />
     <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="iflogin" value="if (GlobalProperties.isLoggedIn(getContext())) {&#10;    $END$&#10;}&#10;" description="Inserts &quot;if login&quot; statement" toReformat="false" toShortenFQNames="true">
+  <template name="iflogin" value="if (GlobalProperties.isLoggedIn(getContext())) {&#10;    $END$&#10;}&#10;" description="Inserts &quot;if login&quot; statement" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="handler" value="private static class MyHandler extends Handler {&#10;    WeakReference&lt;Activity&gt; mActivityReference;&#10;&#10;    MyHandler(Activity activity) {&#10;        mActivityReference= new WeakReference&lt;&gt;(activity);&#10;    }&#10;&#10;    @Override&#10;    public void handleMessage(Message msg) {&#10;        final Activity activity = mActivityReference.get();&#10;        if (activity != null) {&#10;            $cursor$&#10;        }&#10;    }&#10;}" description="Define non memory leak Handler class" toReformat="false" toShortenFQNames="true">
+  <template name="handler" value="private static class MyHandler extends Handler {&#10;    WeakReference&lt;Activity&gt; mActivityReference;&#10;&#10;    MyHandler(Activity activity) {&#10;        mActivityReference= new WeakReference&lt;&gt;(activity);&#10;    }&#10;&#10;    @Override&#10;    public void handleMessage(Message msg) {&#10;        final Activity activity = mActivityReference.get();&#10;        if (activity != null) {&#10;            $cursor$&#10;        }&#10;    }&#10;}" description="Define non memory leak Handler class" toReformat="true" toShortenFQNames="true">
     <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
