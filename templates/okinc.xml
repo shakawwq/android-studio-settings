@@ -26,7 +26,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="iflogin" value="if (GlobalProperties.isLoggedIn(getContext())) {&#10;    $END$&#10;}&#10;" description="Inserts &quot;if login&quot; statement" toReformat="true" toShortenFQNames="true">
+  <template name="iflogin" value="if (GlobalProperties.isLoggedIn(getContext())) {&#10;    $END$&#10;}" description="Inserts &quot;if login&quot; statement" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
