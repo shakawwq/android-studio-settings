@@ -2,7 +2,6 @@
   <component name="CodeInsightSettings">
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
-    <option name="ADD_MEMBER_IMPORTS_ON_THE_FLY" value="false" />
     <EXCLUDED_PACKAGE NAME="autovalue.shaded" />
     <EXCLUDED_PACKAGE NAME="avro.shaded" />
     <EXCLUDED_PACKAGE NAME="com.beust.jcommander.internal" />
