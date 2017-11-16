@@ -35,9 +35,6 @@
       </value>
     </option>
   </AndroidXmlCodeStyleSettings>
-  <JetCodeStyleSettings>
-    <option name="IMPORT_NESTED_CLASSES" value="true" />
-  </JetCodeStyleSettings>
   <MarkdownNavigatorCodeStyleSettings>
     <option name="RIGHT_MARGIN" value="72" />
   </MarkdownNavigatorCodeStyleSettings>
