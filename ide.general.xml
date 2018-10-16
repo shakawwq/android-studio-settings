@@ -1,5 +1,10 @@
 <application>
   <component name="GeneralSettings">
+    <option name="showTipsOnStartup" value="false" />
+  </component>
+</application>
+<application>
+  <component name="GeneralSettings">
     <option name="defaultProjectDirectory" value="$USER_HOME$/workspace/CLionProjects" />
   </component>
 </application>
