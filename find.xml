@@ -4,8 +4,10 @@
     <option name="customScope" value="File '.../eos4j/src/main/java/io/eblock/eos4j/OfflineSign.java [eos4j]'" />
     <option name="defaultScopeName" value="File '.../eos4j/src/main/java/io/eblock/eos4j/OfflineSign.java [eos4j]'" />
     <option name="localCaseSensitive" value="true" />
+    <option name="localWholeWordsOnly" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="File '.../eos4j/src/main/java/io/eblock/eos4j/OfflineSign.java [eos4j]'" />
   </component>
 </application>
