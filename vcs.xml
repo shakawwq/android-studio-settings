@@ -10,6 +10,14 @@
           <option name="url" value="http://gitee.com" />
           <option name="userName" value="shakawwq@163.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/coinmex/coinmex-python3-api-sdk.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://code.aliyun.com" />
+          <option name="userName" value="shakawwq" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/workspace/github" />
